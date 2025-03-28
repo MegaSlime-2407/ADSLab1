@@ -41,6 +41,10 @@ public class Main {
                 Task8 task8 = new Task8();
                 task8.main(null);
                 break;
+            case 9:
+                Task9 task9 = new Task9();
+                task9.main(null);
+                break;
         }
     }
 }
