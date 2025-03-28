@@ -29,6 +29,10 @@ public class Main {
                 Task5 task5 = new Task5();
                 task5.main(null);
                 break;
+            case 6:
+                Task6 task6 = new Task6();
+                task6.main(null);
+                break;
         }
     }
 }
