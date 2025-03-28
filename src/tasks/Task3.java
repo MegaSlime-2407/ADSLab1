@@ -8,9 +8,9 @@ public class Task3 {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
-    long startTime = System.currentTimeMillis();
+    long startTime = System.nanoTime();
         String result = prime(n);
-    long stopTime = System.currentTimeMillis();
+    long stopTime = System.nanoTime();
     float elapsedTime = stopTime - startTime;
     System.out.println(result);
     System.out.println("Duration: " + elapsedTime/1000000 + " milliseconds");

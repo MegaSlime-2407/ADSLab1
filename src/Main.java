@@ -2,6 +2,7 @@ import java.util.Scanner;
 import tasks.Task1;
 import tasks.Task2;
 import tasks.Task3;
+import tasks.Task4;
 
 
 public class Main {
@@ -22,7 +23,10 @@ public class Main {
                 Task3 task3 = new Task3();
                 task3.main(null);
                 break;
-
+            case 4:
+                Task4 task4 = new Task4();
+                task4.main(null);
+                break;
         }
     }
 }
