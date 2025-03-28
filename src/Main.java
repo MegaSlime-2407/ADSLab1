@@ -1,8 +1,6 @@
 import java.util.Scanner;
-import tasks.Task1;
-import tasks.Task2;
-import tasks.Task3;
-import tasks.Task4;
+
+import tasks.*;
 
 
 public class Main {
@@ -26,6 +24,10 @@ public class Main {
             case 4:
                 Task4 task4 = new Task4();
                 task4.main(null);
+                break;
+            case 5:
+                Task5 task5 = new Task5();
+                task5.main(null);
                 break;
         }
     }
