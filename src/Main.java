@@ -33,6 +33,10 @@ public class Main {
                 Task6 task6 = new Task6();
                 task6.main(null);
                 break;
+            case 7:
+                Task7 task7 = new Task7();
+                task7.main(null);
+                break;
         }
     }
 }
