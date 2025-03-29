@@ -3,6 +3,7 @@ Main
 2. Select the needed function from the list
 3. Enter required arguments
 4. Get result
+
 Functions
 1. Minimum of an array returns the smallest number in the array
 2. Average of an array returns the average value of all elements of the array
