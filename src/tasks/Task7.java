@@ -17,7 +17,8 @@ private static void reversePrint(int n, Scanner sc) {
             return;
         }
         int num = sc.nextInt();
-        reversePrint(n - 1, sc); // i call it recusively and then only start printing
+        reversePrint(n - 1, sc); // i call it recursively and then only start printing so code will
+    // take input and then only print it
         System.out.println(num); // time complexity should be O(n)
     }
 }

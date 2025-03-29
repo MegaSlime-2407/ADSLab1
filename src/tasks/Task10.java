@@ -17,6 +17,6 @@ public class Task10 {
     public static int gcd(int a, int b) {
         if(b == 0)
             return a; // checks condition if first number is zero then second one will be our gcd
-        return gcd(b, a % b); // we returning gcd of b and mod a b
+        return gcd(b, a % b); // we are returning gcd of b and mod a b
     }
 }
